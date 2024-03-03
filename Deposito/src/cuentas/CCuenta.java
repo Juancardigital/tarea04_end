@@ -1,17 +1,19 @@
 package cuentas;
-public class Cuenta1 {
-
+public class CCuenta {
+/**
+ * @author juanc
+ */
 
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
 
-    public Cuenta1()
+    public CCuenta()
     {
     }
 
-    public Cuenta1(String nom, String cue, double sal, double tipo)
+    public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
         cuenta=cue;
