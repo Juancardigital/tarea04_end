@@ -9,7 +9,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     public CCuenta()
     {
@@ -81,16 +81,16 @@ public class CCuenta {
      * método getter que devuelve el tipo de interés aplicable   
      * @return tipoInteres = tipo de interés 
      */
-	public double getTipoInterés() {
-		return tipoInterés;
+	public double getTipoInteres() {
+		return tipoInteres;
 	}
 	
 	/**
      * metodo setter
      * @param tipoInterés= tipo de interés
      */
-	public void setTipoInterés(double tipoInterés) {
-		this.tipoInterés = tipoInterés;
+	public void setTipoInteres(double tipoInteres) {
+		this.tipoInteres = tipoInteres;
 	}
 
 	/**
